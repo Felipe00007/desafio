@@ -1,90 +1,157 @@
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  width: 100%;
+  padding: 60px;
+  border: none;
+  position: fixed;    
+  background-color: #2b084d;
+  z-index: 10;
 }
 .icons {
   position: absolute;
-  height: 150px;
-  width: 200px;
+  height: 115px;
+  width: 180px;
+  left: 12%;
+  top: 3px;
 }
 
-.shop {
+.shop{
   position: absolute;
   width: 60px;
   height: 60px;
-  left: 1000px;
-  top: 35px;
+  left: 1100px;
+  top: 30px;
   cursor: pointer;
 }
 
-.inicio {
-  background-color: #2b084d;
-  width: 100%;
-  height: 150px;
-   /*position: fixed;
-  right: 3%;
-  z-index: 9;  */
-  
-  
-}
-.fim {
-  background-color: #2b084d;
-  width: 100%;
-  height: 150px;
-}
 .botao {
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 35%;
   transform: translate(-50%);
 }
-button {
+
+ul {
+  list-style: none;
+      
+}
+
+li {
+  display: inline;
+  padding: 5px;
+  font-size: 30px;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+.itens{
   cursor: pointer;
   margin: 4px;
   background-color: white;
   color: #000;
   border: none;
   width: 70px;
-  height: 35px;
-  border-radius: 15px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 12px;
+  padding: 15px;
+  font-family: 'Roboto', sans-serif;
 }
-button:hover {
+.itens:hover{
   background-color: rgb(255, 144, 231);
   color: rgba(20, 20, 20, 0.856);
-  border-radius: 20px;
-  height: 45px;
+  border-radius: 10px;
+  height: 55px;
 
 }
 
-.medion {
-  width: 100%;
-  height: 600px;
-}
 
-img {
+main{
   position: relative;
-  width: 1000px;
-  height: 500px;
-  left: 12%;
-}
-h1 {
-  color: #2b084d;
-  text-align: center;
-  font-size: 100px;
-}
-p {
-  text-align: center;
-  font-family: "Courier New", Courier, monospace;
-  color: #2b084d;
+  top: 100px;    
 }
 
-.wha{
-    width: 100px;
-    height: 100px;
-    position: fixed;
-    bottom: 0;
-    right: 3%;
-    z-index: 9;
-    border-radius: 50%;
-    left: 1200px;
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+p{
+  font-family: 'Recursive', sans-serif;
+  font-weight: bold;
+}
+
+.banner {
+  text-align: center;         
+}
+
+.X-Games-Br{
+  width: 70%;
+  height: 80%;
+}
+
+
+article{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+  position: relative;
+}
+
+
+
+.divo{
+  width: 40%;
+  height: 40%;
+  border: none;
+  margin: 5px;    
+  padding: 5px;
+  display: inline-block; 
+  color: #2b084d;
+  
+}
+
+.imagemdiv{
+  width: 200px;
+  height: 200px;    
+}
+
+
+#what{
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 2;
+}
+
+footer{
+  background-color: #2b084d;
+  text-align: center;
+  width: 100%;
+  padding: 50px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  
 }
